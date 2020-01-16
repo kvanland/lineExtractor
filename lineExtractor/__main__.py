@@ -1,5 +1,8 @@
 #!/usr/bin/env python
 
+# lineExtractor.py
+__version__ = "0.0.2"
+
 import sys
 import getopt
 
@@ -114,7 +117,7 @@ def print_help():
     '''
     print(title)
     print('This tool is meant to analyze an input file and extract particular lines to an output file.')
-    print('I made this tool to help myself analyze microservice logs if it helps you or you would like to suggest changes the link to the Github Repo is: ')
+    print('I made this tool to help myself analyze microservice logs if it helps you or you would like to suggest changes the link to the Github Repo is: https://github.com/kvanland/lineExtractor/')
     print('\n')
     print('Usage:')
     print('lineExtractor [Options] input.txt output.txt ')
